@@ -5,9 +5,10 @@ SPA desenvolvida durante bootcamp Avanade / [Digital Innovation One](https://dig
 A aplicação consiste de um cadastro de filmes, com possibilidade de edição, exclusão, inclusão e listagem de filmes.
 
 ## Instalação
+Para execução desta SPA é necessário ter Node.js e Angular instalados.
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
-2. Entre no projeto e instale as dependencias `npm install`
+1. Clone o repositório `git clone git@github.com:eduardolm/Filmes.git`
+2. Entre no projeto e instale as dependências `npm install`
 
 ## Ambiente Local
 
@@ -15,7 +16,8 @@ Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://loca
 
 ## Simulando o Back-end
 
-Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
+Execute `npm install -g json-server` para instalar globalmente o servidor json. 
+Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/`, após a inicialização sera possível realizar requisições http.
 
 ## Gerando componente
 
